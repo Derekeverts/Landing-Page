@@ -1,29 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Landing page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Landing page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
 <body>
-    <div class="header">
-     Header logo
+
+  <div class="header">
+    <div class="header-logo">
+      <strong>Header Logo</strong>
     </div>
-    <div class="body">
-      <div class="intro">
-            This website is awesome
+    
+    <div class="header-links">
+    <!-- use ul and li for links to keep them more organised -->
+      <ul>
+        <li class="header-links-item">header link one</li>
+        <li class="header-links-item">header link two</li>
+        <li class="header-links-item">header link three</li>
+      </ul>
     </div>
-   <div class="container">
-     <div class="links">Header link one
-     <div class="links">Header link two
-     <div class="links"></div>Header link three
-   </div>
- </div>
-    <div class="Headerimage">
-        some random information
-        <div class="button">
-           
+  </div>
+
+  <!-- sometimes the first piece of content on a webpage is called a 'hero' -->
+  <div class="hero">
+    <div class="hero-content">
+        <!-- only 1 h1 per page -->
+       <h1>This website is awesome</h1>
+       <p>This website has some subtext that goes here under
+        the main title. It's a smaller font and color is lower contrast</p>
+       <button>Sign up</button>
     </div>
-  </body>
+    <div class="hero-image-wrapper">
+      <img class="hero-image" src="/home/derek678/repos/landing-page/kaas.jpeg" alt="Picture of a cat">
+    </div>
+  </div>
+   
+
+  <div class="imageinfo">
+    <strong><p class="imagetext">Picture of some silly cats</p></strong>
+    <div class="imagebox">
+      <ul>
+        <li class="boxmodel">
+          <img class="batman" src=batmancat.jpg></li>
+        <li class="boxmodel" background>
+          <img class="batman" src=catmilk.jpg></li>
+        <li class="boxmodel">
+          <img class="batman" src=magiccat.jpg></li>
+        <li class="boxmodel">
+          <img class="batman" src=catweird.jpg></li>
+      </ul>
+    </div>
+  </div>
+</div>
+   
+
+  <div class="quotebackground">
+    <div class="quotetext">
+       <em>Cats never listen. They're dependable that way; when Rome burned, the emperor's cats still expected to be fed on time.</em></div>
+    <div class="quotesource">
+      <strong>-Seanan McGuire</strong>
+    </div>
+  </div>
+
+  
+  <div class="actionbackground">
+    <div class="actionblue">
+      <div class="actiontext">
+        <h2>Call the cats</h2>
+        <p>Sign up for our product by clicking the button!</p>
+      </div>
+      <div class="actionbutton">
+        <p>Sign up</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="Madebyme">
+    <div class="madetext">Made by  <strong>Derek Everts</strong></div>
+  </div>
+
+
+</body>
 </html>

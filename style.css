@@ -1,27 +1,248 @@
 body {
     background-color: #1f2936;
+    margin: 0 auto;
+    max-width: /* can change this to control the width of the content */
 }
+
+
+/* try and organise your css classes in a logical way, like if its a class for an element inside the header, call it header-insert-item-name */
+
+.header {
+  display: flex;
+  color: #f9faf8;
+  font-size: 24px;
+  padding-top: 10px;
+  
+}
+
+.header-logo {
+  display: flex;
+  padding-left: 495px;
+}
+
+.header-links {
+   color: #e5e7e5;
+   margin-left: auto;
+   align-items: center;
+   display: flex;
+   
+}
+
+.header-links ul {
+  list-style: none;
+  padding: 0;
+  padding-right: 540px;
+  margin: 0;
+  display: flex;
+  gap: 8px;
+}
+
+.header-links-item {
+  font-size: 18px;
+  margin-right: 3px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.hero-content {
+  max-width: 50%;
+  padding-right: 10px;
+
+}
+
+.hero-image-wrapper {
+  padding: 45px;
+  
+}
+
+.hero-image {
+  display: flex;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  height: 240px;
+  width: 450px;
+}
+
 
 .intro {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 300px;
+    
+}
 
+.containerhead {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header {
     font-size: 24px;
     color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 10px;
     
-}
-
-.links {
-    font-size: 18px;
-    color: #E5e7eb;
-}
-
-.container {
-
+    
 
 }
- 
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  width: 300px;
+}
+
+P {
+  color: #e5e7e5;
+  width: 370px;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.imageinfo { 
+  background-color: white;
+  color: black;
+  height: 350px;
+}
+
+.imagetext {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-left: 780px;
+  padding-top: 30px;
+  color: black;
+}
+
+.imagebox {
+  display: flex; 
+  justify-content: center;
+  padding-top: 15px;
+  
+  
+}
+
+.boxmodel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 110px;
+  height: 110px;
+  border: 3px solid rgb(16, 128, 165);
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.batman {
+  width: 130px;
+  height: auto;
+  border-radius: 17px;
+}
+
+.quotebackground {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  background-color: #e5e7eb;
+  max-height: 350px;
+  padding-top: 20px;
+
+}
+
+
+
+.quotesource {
+  display: flex;
+  padding-top: 260px;
+  padding-right: 20px;
+  color: #1f2936;
+  font-size: 20px;
+  
+}
+
+.quotetext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 600px;
+  font-size: 26px;
+  color: #1f2936;
+  padding-left: 250px;
+}
+
+.actionbackground {
+  display: flex;
+  background-color: white;
+  height: 250px;
+  justify-content: center;
+}
+
+.actionblue {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background-color: #3882f6;
+  border: 15px solid #3882f6;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.actiontext {
+  flex-direction: column;
+  color: white;
+  font-size: 16px;
+  width: 80%;
+}
+
+.actionbutton {
+  display: flex;
+  background-color: #3882f6;
+  border: 1px solid white;
+  color: white;
+  margin: 30px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 10px;
+  width: 20%;
+}
+
+.madebyme {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.madetext {
+  color: white;
+  text-align: center;
+  height: 35px;
+  font-size: 19px;
+  
+}
